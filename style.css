@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto";
+  background: #eeeeee;
+}
+
+header img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 55px;
+}
+
+header {
+  background-color: #007765;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 29px 8px 26px 8px;
+}
+
+nav {
+  position: absolute;
+  right: 54px;
+  top: 37px;
+}
+
+.start {
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  background-image: url(/image.png);
+  background-size: cover;
+  padding: 160px 0 160px 0;
+  font-weight: 500;
+}
+h1 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 48px;
+}
+p {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.w_text p {
+  color: white;
+  background-image: url(/image1.png);
+  font-size: 48px;
+  line-height: 56px;
+  padding: 128px 163px 127px 163px;
+}
+
+.logo {
+  float: left;
+  padding-right: 45px;
+}
+
+.team img {
+  width: 168px;
+  height: 168px;
+}
+
+.team h2 {
+  font-size: 24px;
+  color: #007765;
+  text-align: center;
+  line-height: 10px;
+}
+
+.team p {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  line-height: 10px;
+}
+
+.TEAM {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team {
+  padding: 70px;
+}
+footer {
+  background-color: #333333;
+}
+footer p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
